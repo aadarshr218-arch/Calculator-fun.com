@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#2c2c2c;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content:center;
+    gap:10px;
+    height:100vh;
+    padding:20px;
+}
+
+input{
+    width:310px;
+    height:70px;
+    font-size:2rem;
+    text-align:right;
+    padding:10px;
+    border:none;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+
+button{
+    width:70px;
+    height:70px;
+    font-size:1.5rem;
+    border:none;
+    border-radius:50%;
+    background:#505050;
+    color:white;
+    cursor:pointer;
+    transition:.2s;
+}
+
+button:hover{
+    background:#6a6a6a;
+}
+
+button:active{
+    transform:scale(0.95);
+}
+
+#add,
+#subtract,
+#multiply,
+#divide{
+    background:#ff9500;
+}
+
+#add:hover,
+#subtract:hover,
+#multiply:hover,
+#divide:hover{
+    background:#ffb340;
+}
